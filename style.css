@@ -13,8 +13,10 @@ body{
   }
 
   .Daniela {
+    position: absolute;
     margin-top: 8px;
-    text-align: center;
+    margin-left: 8px;
+    text-align: left;
     font-family: Lemonmilk Regular;
     font-weight:normal;
     color: #ffffff;
@@ -23,15 +25,11 @@ body{
 }
 
 .paginainicial {
-    position: relative;
-    top: -80px;
-    background-color: #6d1010;
+    text-align: center;
+
     border-color: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
     font-family: Lemonmilk Regular;
     color: #ffffff;
-    margin-left: 80px;
     text-decoration: none;
     
 }
