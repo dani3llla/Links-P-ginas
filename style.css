@@ -25,13 +25,13 @@ body{
 }
 
 .paginainicial {
-    text-align: center;
 
+    text-align: center;
     border-color: #ffffff;
     font-family: Lemonmilk Regular;
     color: #ffffff;
     text-decoration: none;
-    
+    margin-left: 300px;
 }
 
   .navegar{
