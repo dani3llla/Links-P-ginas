@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #bd8686;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .Daniela {
+    margin-top: 8px;
+    text-align: center;
+    font-family: Lemonmilk Regular;
+    font-weight:normal;
+    color: #ffffff;
+
+
+}
+
+.paginainicial {
+    position: relative;
+    top: -80px;
+    background-color: #6d1010;
+    border-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Lemonmilk Regular;
+    color: #ffffff;
+    margin-left: 80px;
+    text-decoration: none;
+    
+}
+
+  .navegar{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #6d1010;
+  
+}
+
+.texto {
+    font-size: 20px;
+    color: #5c1717;
+    font-family: Lemonmilk Regular;
+    padding: 70px;
+    text-align: center;
+    position: relative;
+}
+
+@font-face {
+    font-family: Lemonmilk Regular;
+    src: url(./LEMONMILK-Regular.otf);
+}
+
+.paginainicial:hover {
+    color: rgb(49, 6, 6);
+}
