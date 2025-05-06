@@ -12,37 +12,81 @@ body{
     box-sizing: border-box;
   }
 
-  .Daniela {
-    position: absolute;
-    margin-top: 8px;
-    margin-left: 8px;
-    text-align: left;
-    font-family: Lemonmilk Regular;
-    font-weight:normal;
-    color: #ffffff;
 
+.Daniela {
+  font-family: Lemonmilk Regular;
+  color: #ffffff;
+  font-size: 24px;
 
 }
 
+
+
 .paginainicial {
+  text-align: center;
+  border-color: #ffffff;
+  font-family: Lemonmilk Regular;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 80px;
+  display: inline-block; 
+}
+.musicas {
 
     text-align: center;
     border-color: #ffffff;
     font-family: Lemonmilk Regular;
     color: #ffffff;
     text-decoration: none;
-    margin-left: 300px;
+
+    margin-left: 80px;
+    display: inline-block; 
+ 
+}
+.memes {
+
+    text-align: center;
+    border-color: #ffffff;
+    font-family: Lemonmilk Regular;
+    color: #ffffff;
+    text-decoration: none;
+
+    margin-left: 80px;
+    display: inline-block; 
+ 
+}
+.filmes {
+
+    text-align: center;
+    border-color: #ffffff;
+    font-family: Lemonmilk Regular;
+    color: #ffffff;
+    text-decoration: none;
+
+    margin-left: 80px;
+    display: inline-block; 
+ 
 }
 
-  .navegar{
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    background-color: #6d1010;
-  
-}
+.navegar {
+  display: flex; /* Permite alinhar horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 40px; /* Espaçamento entre os itens */
+  padding: 10px;
+  background-color: #6d1010;
+  /* Removido position: absolute para evitar sobreposição */
+  width: 100%;
+   }
 
 .texto {
+    font-size: 20px;
+    color: #5c1717;
+    font-family: Lemonmilk Regular;
+    padding: 70px;
+    text-align: center;
+    position: relative;
+}
+.favoritos{
     font-size: 20px;
     color: #5c1717;
     font-family: Lemonmilk Regular;
@@ -57,5 +101,17 @@ body{
 }
 
 .paginainicial:hover {
+    color: rgb(49, 6, 6);
+}
+
+.musicas:hover {
+    color: rgb(49, 6, 6);
+}
+
+.memes:hover {
+    color: rgb(49, 6, 6);
+}
+
+.filmes:hover {
     color: rgb(49, 6, 6);
 }
